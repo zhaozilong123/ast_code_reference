@@ -1,0 +1,38 @@
+{
+  "name": "ast_code_reference",
+  "version": "0.0.1",
+  "description": "analysis code reference",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo test",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaozilong123/ast_code_reference.git"
+  },
+  "author": "zilong0211@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/types": "^7.9.0",
+    "@types/babel__traverse": "^7.14.2",
+    "@types/enhanced-resolve": "^3.0.6",
+    "@types/node": "^12.12.17"
+  },
+  "modules": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "engines": {
+    "node": ">=12.0.0.0 <16.0.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.9.3",
+    "@babel/traverse": "^7.14.7",
+    "enhanced-resolve": "^4.1.1",
+    "lodash": "^4.17.21",
+    "typescript": "^3.9.7"
+  }
+}
